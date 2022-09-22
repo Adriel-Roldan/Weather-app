@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-color:#100E1D;
+}
+
+.container-data{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E213A;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+#temperature{
+    font-size: 148px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.letter-temperature{
+    margin-top: 1.5em;
+    font-size: 60px;
+    font-weight: 600;
+    color: #a0a0a0;
+}
+
+#description{
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 1em;
+    color: #a0a0a0;
+}
+
+#date{
+    font-size: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+    color: #a0a0a0;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#locationRegion{
+    color: #a0a0a0;
+    letter-spacing: 1px;
+    margin-right: 0.5em
+}
+
+.bar{
+    color: #a0a0a0;
+}
+
+#locationCountry{
+    color:#a0a0a0;
+    letter-spacing: 1px;
+    margin-left: 0.5em;
+}
+
+.other-data{
+    height: 100vh;
+}
+
+.area-title{
+    margin: 1em;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.panel{
+    width: 80%;
+    height: 20vh;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e213a59;
+}
+
+.panel-title{
+    margin-top: 1em;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.temp-max-min{
+    margin-top: 0.3em;
+    display: flex;
+    flex-direction: row;
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.temperatureMin{
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-right: 2em;
+}
+
+.bar-max-min{
+    font-size: 46px;
+    margin-top: 0.5em;
+    margin-right: 0.3em;
+}
+
+.temperatureMax{
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-left: 3em;
+}
+
+.letter-max-min{
+    font-size: 16px;
+    margin-top: 3em;
+    margin-right: 1em;
+}
+
+.wind-stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+}
+
+#windStatus{
+    font-size: 96px;
+    color: #ffffff;
+}
+
+.wind-kmh{
+    margin-top: 1.7em;
+    margin-left: 0.3em;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
