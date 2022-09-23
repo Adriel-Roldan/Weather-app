@@ -26,20 +26,21 @@ body{
 }
 
 #temperature{
-    font-size: 148px;
+    margin: 1em 0em, 1em, 1em;
+    font-size: 118px;
     font-weight: 600;
     color: #ffffff;
 }
 
 .letter-temperature{
-    margin-top: 1.5em;
-    font-size: 60px;
+    margin-top: 2em;
+    font-size: 40px;
     font-weight: 600;
     color: #a0a0a0;
 }
 
 #description{
-    font-size: 64px;
+    font-size: 48px;
     font-weight: 400;
     letter-spacing: 2px;
     margin-bottom: 1em;
@@ -47,7 +48,7 @@ body{
 }
 
 #date{
-    font-size: 28px;
+    font-size: 24px;
     letter-spacing: 1px;
     margin-bottom: 1.5em;
     color: #a0a0a0;
@@ -109,7 +110,7 @@ body{
     margin-top: 0.3em;
     display: flex;
     flex-direction: row;
-    font-size: 58px;
+    font-size: 42px;
     font-weight: 600;
     text-align: center;
 }
@@ -121,8 +122,8 @@ body{
 }
 
 .bar-max-min{
-    font-size: 46px;
-    margin-top: 0.5em;
+    font-size: 36px;
+    margin-top: 0.2em;
     margin-right: 0.3em;
 }
 
@@ -134,8 +135,28 @@ body{
 
 .letter-max-min{
     font-size: 16px;
-    margin-top: 3em;
+    margin-top: 1.6em;
     margin-right: 1em;
+}
+
+.humedity-data{
+    margin-top: 0.3em;
+    display: flex;
+    flex-direction: row;
+}
+
+#humidity{
+    font-size: 76px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.humidity-icon{
+    margin-top: 0.8em;
+    margin-left: 0.2em;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .wind-stats{
@@ -157,6 +178,30 @@ body{
     letter-spacing: 1px;
 }
 
+.pressure-stats{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#pressure{
+    font-size: 76px;
+}
+
+.pressure-mb{
+    margin-top: 1.5em;
+    margin-left: 0.3em;
+    font-size: 32px;
+}
+
+.text-end{
+    margin-top: 5em;
+    padding-bottom: 1em;
+    font-size: 14px;
+    text-align: center;
+}
 
 
 
